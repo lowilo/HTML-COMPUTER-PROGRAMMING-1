@@ -1,0 +1,163 @@
+<html><head> 
+  <title>Parallax</title> 
+ </head> 
+ <body> 
+  <div class="img1"> 
+   <div class="first"> <span class="border">
+      THE TYPES OF COMPUTERS
+    </span> 
+   </div> 
+  </div> 
+  <section class="section section-light"> 
+   <h2> Personal Computer</h2> 
+   <p> It is also known as a microcomputer. It is basically a general-purpose computer and designed for individual use. It consists of a microprocessor as a central processing unit(CPU), memory, input unit, and output unit. This kind of computer is suitable for personal work such as making an assignment, watching a movie, or at office for office work, etc. For example, Laptops and desktop computers. </p> 
+  </section> 
+  <div class="img2"> 
+   <div class="text"> <span class="border">
+       
+    </span> 
+   </div> 
+  </div> 
+  <section class="section section-light"> 
+   <h2>Mainframe Computers</h2> 
+   <p> Mainframe computers are designed in such a way that it can support hundreds or thousands of users at the same time. It also supports multiple programs simultaneously. So, they can execute different processes simultaneously. All these features make the mainframe computer ideal for big organizations like banking, telecom sectors, etc., which process a high volume of data in general. </p> 
+  </section> 
+  <div class="img3"> 
+   <div class="text"> <span class="border">
+      
+    </span> 
+   </div> 
+  </div> 
+  <section class="section section-light"> 
+   <h2> Super Computers</h2> 
+   <p> They are the biggest and fastest computers(in terms of speed of processing data). Supercomputers are designed such that they can process a huge amount of data, like processing trillions of instructions or data just in a second. This is because of the thousands of interconnected processors in supercomputers. It is basically used in scientific and engineering applications such as weather forecasting, scientific simulations, and nuclear energy research. </p> 
+  </section> 
+  <div class="img4"> 
+   <div class="text"> <span class="border">
+      
+    </span> 
+   </div> 
+  </div> 
+  <section class="section section-light"> 
+   <h2> Mini Computer</h2> 
+   <p> Minicomputer is a medium size multiprocessing computer. In this type of computer, there are two or more processors, and it supports 4 to 200 users at one time. Minicomputers are used in places like institutes or departments for different work like billing, accounting, inventory management etc. It is smaller than a mainframe computer but larger in comparison to the microcomputer. </p> 
+  </section> 
+  <div class="img5"> 
+   <div class="text"> <span class="border">
+      
+    </span> 
+   </div> 
+  </div> 
+  <section class="section section-light"> 
+   <h2>Workstation</h2> 
+   <p> Workstation is designed for technical or scientific applications. It consists of a fast microprocessor, with a large amount of RAM and high speed graphic adapter. It is a single-user computer. It generally used to perform a specific task with great accuracy. </p> 
+  </section> 
+  <div class="img6"> 
+   <div class="text"> <span class="border">
+   
+    </span> 
+   </div> 
+  </div> 
+ 
+</body></html>
+You sent
+html
+You sent
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 2em;
+  color: #white;
+  }
+
+.img1, .img2, .img3, .img4, .img5, .img6
+{
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+} 
+  
+.img1{
+  
+  background-image: url("https://governmenttechnologyinsider.com/wp-content/uploads/2021/06/shutterstock_1373089550.jpg");
+  min-height: 70%;
+}
+
+.img2{
+  background-image: url("https://www.uopeople.edu/wp-content/uploads/2022/05/caspar-camille-rubin-220711-unsplash.jpg");
+  min-height: 600px;
+}
+
+.img3{
+  background-image: url("https://smallbizclub.com/wp-content/uploads/2021/12/bigstock-Rackmount-Led-Console-In-Serve-432494384.jpg");
+  min-height: 600px;
+}
+
+.img4{
+  background-image: url("https://www.euractiv.com/wp-content/uploads/sites/2/2022/06/shutterstock_1921647347.jpg");
+  min-height: 600px;
+}
+
+.img5{
+  background-image: url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaSUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  min-height: 600px;
+}
+
+.img6{
+  background-image: url("https://i.pinimg.com/originals/70/66/c6/7066c6d46f5b550d653bd2b42bc8082f.jpg");
+  min-height: 600px;
+}
+
+.section{
+  text-align: center;
+  padding: 50px 100px;;
+}
+
+.section-light{
+  background-color: #345160;
+  color: #ffff;
+  text-align: justify;
+  text-indent: 70px;
+}
+
+.text{
+  position: relative;
+  top: 300px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 37px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.first{
+  position: relative;
+  top: 300px;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 80px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  opacity: 100%;
+  font-weight: 1000;
+  font-family: Monospace;
+
+}
+
+.first .border{
+background-color: #2193b0 → #6dd5ed;
+padding: 20px 30px;
+ border-radius: 25px;
+  border: 2px solid #02577a;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
